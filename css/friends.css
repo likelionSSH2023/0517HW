@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&display=swap');
+
+  * {
+    /* border: solid 1px skyblue ; */
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#424242;
+  }
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+
+}
+i{
+    padding: 2px 7px;
+}
+    
+div, section{
+    display: flex;
+    
+}
+
+  .container{
+    width: 320px;
+    align-items:center;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .image{
+    border-radius: 40%;
+  }
+
+  .image.me{
+    width: 50px;
+    height: 50px;
+    background-image: url("../image/p1.png");
+    background-repeat: round;
+  }
+
+  .image.freind{
+    width: 40px;
+    height: 40px;
+    background-image: url("../image/p2.png");
+    background-repeat: round;
+  }
+
+  .item{
+    width:100%;
+    text-align: center;
+  }
+
+  .system{
+    width: 100%;
+
+    flex-direction:row;
+    justify-content: space-between;
+
+    position: relative;
+  }
+
+  .system i{
+    padding: 4px 3px 3px 3px;
+  }
+
+  .box{
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0px;
+  }
+
+  .head, .icon{
+    justify-content: space-between;
+  }
+
+  .head>.text{
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+  .head i{
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  .tail{
+    width :100%;
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-top:  solid 2px gray;
+  }
+  
+  .tail>.icon{
+    width :90%;
+  }
+
+  .tail i{
+    position: relative;
+    font-size: 2.0rem;
+  }
+
+  .alram{
+    position: absolute;
+    top: 0;
+    left: 22px;
+
+    background-color: #FE642E;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .alram .text{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .profile.me{
+    justify-content: start;
+  }
+  .profile .text{
+    padding: 0px 10px;
+    font-size: 1.0rem;
+    font-weight: 800;
+    height: 100%;
+  }
+  .profile i{
+    padding: 6px 3px 3px 3px;
+  }
+
+  .profile.me{
+    padding-bottom: 20px;
+    border-bottom: solid 1px gray;
+  }
+
+  
+  .profile.freind{
+    justify-content:space-between;
+    padding: 3px;
+  }
+
+  .profile div{
+    align-items:center;
+  }
+
+  .notice{
+    width :100%;
+    padding: 10px;
+    background-color: #F2F2F2;
+    
+  }
+
+  .notice>.text{
+    font-weight: 800;
+  }
+  .notice i{
+    color: gray;
+    padding: 6px 3px 3px 3px;
+  }
+  .category{
+    width: 100%;
+    flex-grow: 1;
+    padding: 0;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  .summary{
+    display: flex;
+    justify-content:space-between;
+    padding: 2px 2px 14px 2px;
+  }
